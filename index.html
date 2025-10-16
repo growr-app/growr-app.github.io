@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Growr – finn neste internship</title>
+    <meta
+      name="description"
+      content="Growr gjør det raskt å finne internships, sommerjobber og trainee-stillinger i Norge med søk og smidige filtre."
+    />
+    <link rel="stylesheet" href="assets/styles/base.css" />
+    <link rel="stylesheet" href="assets/styles/components.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="hero hero--center">
+      <div class="hero__content">
+        <span class="hero__badge">Growr</span>
+        <h1>Finn neste internship</h1>
+        <p>
+          Søker du sommerjobb eller trainee-program? Growr gir deg ett rolig
+          startpunkt – filtrer, lagre og finn noe som passer.
+        </p>
+        <div class="search" role="search">
+          <label class="visually-hidden" for="q">Søk etter stilling, firma eller nøkkelord</label>
+          <input
+            id="q"
+            type="search"
+            placeholder="Søk etter stilling, firma eller nøkkelord"
+            autocomplete="off"
+          />
+        </div>
+        <div class="chips" data-chip-list></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section__head">
+          <h2>Treff</h2>
+          <p data-result-count>Viser alle stillinger.</p>
+        </div>
+        <div class="grid opportunities" data-opportunity-list></div>
+      </section>
+
+      <section class="section section--highlight" id="insights">
+        <div class="section__head">
+          <h2>Nytt i dag</h2>
+          <p>Få en rask oversikt over ferske utlysninger.</p>
+        </div>
+        <div class="grid" data-new-list></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <span>© <span id="year"></span> Growr</span>
+        <nav class="footer__nav">
+          <a href="https://warpingcars.github.io/warpedev.github.io/">Til Warpedev</a>
+          <a href="https://warpingcars.github.io/codefront-app.github.io/">CodeFront</a>
+          <a href="https://warpingcars.github.io/growr-app.github.io/">Growr</a>
+          <a href="https://warpingcars.github.io/spontis-app.github.io/">Spontis</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="assets/scripts/utils.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+  </body>
+</html>

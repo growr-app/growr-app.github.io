@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Sommerintern – Backend",
+    "company": "Otovo",
+    "city": "Oslo",
+    "tracks": ["Backend", "Energi"],
+    "period": "Sommer 2025",
+    "posted": "2024-11-15",
+    "deadline": "2024-12-10",
+    "url": "https://otovo.com/careers",
+    "summary": "Jobb med solenergi-plattformen og bygg API-er i Go og Kotlin."
+  },
+  {
+    "title": "Design + Frontend Internship",
+    "company": "Schibsted D|Lab",
+    "city": "Oslo",
+    "tracks": ["Frontend", "UX"],
+    "period": "Sommer 2025",
+    "posted": "2024-11-17",
+    "deadline": "2025-01-05",
+    "url": "https://schibsted.com/careers",
+    "summary": "Utforsk nye produkter sammen med tverrfaglig team – React, prototyping og brukertesting."
+  },
+  {
+    "title": "Trainee – DevOps og automasjon",
+    "company": "Bane NOR",
+    "city": "Trondheim",
+    "tracks": ["DevOps", "Cloud"],
+    "period": "Helår 2025",
+    "posted": "2024-11-12",
+    "deadline": "2024-12-01",
+    "url": "https://www.banenor.no/karriere",
+    "summary": "Hold togene i gang med CI/CD, IaC og overvåking."
+  },
+  {
+    "title": "Sommerjobb – Data & Analytics",
+    "company": "DNB",
+    "city": "Bergen",
+    "tracks": ["Data", "AI"],
+    "period": "Sommer 2025",
+    "posted": "2024-11-10",
+    "deadline": "2024-11-30",
+    "url": "https://www.dnb.no/jobb",
+    "summary": "Analyser kundeinnsikt og eksperimenter med AI-løsninger for finans."
+  }
+]
